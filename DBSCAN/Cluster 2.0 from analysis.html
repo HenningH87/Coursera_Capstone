@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9ddfb32e8f474460a47c01ea7533bb1b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9ddfb32e8f474460a47c01ea7533bb1b" ></div>
+        
+</body>
+<script>    
+    
+            var map_9ddfb32e8f474460a47c01ea7533bb1b = L.map(
+                "map_9ddfb32e8f474460a47c01ea7533bb1b",
+                {
+                    center: [38.34075319002071, -102.47432876343437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f6772339141b48eb84da410ff873b0ac = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9ddfb32e8f474460a47c01ea7533bb1b);
+        
+    
+            var marker_cluster_fcf3956bff514948992967a60041f365 = L.markerClusterGroup(
+                {}
+            );
+            map_9ddfb32e8f474460a47c01ea7533bb1b.addLayer(marker_cluster_fcf3956bff514948992967a60041f365);
+        
+    
+            var circle_marker_1a47454c10b64ebe8e216b081ae3b553 = L.circleMarker(
+                [42.594336, -100.889837],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_fcf3956bff514948992967a60041f365);
+        
+    
+        var popup_58d1e2da3d75413e9b99d9dc697b7c92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98232c5885144333b725d72ec7e9b766 = $(`<div id="html_98232c5885144333b725d72ec7e9b766" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Merritt%20Reservoir%20-%20Beed's%20Landing%20Campground'>Merritt Reservoir - Beed's Landing Campground</a></div>`)[0];
+            popup_58d1e2da3d75413e9b99d9dc697b7c92.setContent(html_98232c5885144333b725d72ec7e9b766);
+        
+
+        circle_marker_1a47454c10b64ebe8e216b081ae3b553.bindPopup(popup_58d1e2da3d75413e9b99d9dc697b7c92)
+        ;
+
+        
+    
+    
+            var circle_marker_b5b624649b324cfb98d2afd3c6c65aad = L.circleMarker(
+                [42.595485, -100.892894],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_fcf3956bff514948992967a60041f365);
+        
+    
+        var popup_a735a12faaab4c479c3bbf714daac07c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7a33bf0fd814445aa4e189fe5376427 = $(`<div id="html_e7a33bf0fd814445aa4e189fe5376427" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Merritt%20Reservoir%20-%20Cedar%20Bay%20Campground'>Merritt Reservoir - Cedar Bay Campground</a></div>`)[0];
+            popup_a735a12faaab4c479c3bbf714daac07c.setContent(html_e7a33bf0fd814445aa4e189fe5376427);
+        
+
+        circle_marker_b5b624649b324cfb98d2afd3c6c65aad.bindPopup(popup_a735a12faaab4c479c3bbf714daac07c)
+        ;
+
+        
+    
+    
+            var circle_marker_22ad131c0f384742b60acc228f747ef4 = L.circleMarker(
+                [42.605308, -100.878298],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_fcf3956bff514948992967a60041f365);
+        
+    
+        var popup_64cb84248385460ca1920977853a89bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b45116687922483babbce9d741b9ae13 = $(`<div id="html_b45116687922483babbce9d741b9ae13" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Merritt%20Reservoir%20-%20Cottonwood%20Campground'>Merritt Reservoir - Cottonwood Campground</a></div>`)[0];
+            popup_64cb84248385460ca1920977853a89bd.setContent(html_b45116687922483babbce9d741b9ae13);
+        
+
+        circle_marker_22ad131c0f384742b60acc228f747ef4.bindPopup(popup_64cb84248385460ca1920977853a89bd)
+        ;
+
+        
+    
+    
+            var circle_marker_d4312f2cdfcd49898574bd53eef897e0 = L.circleMarker(
+                [42.609097, -100.872165],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_fcf3956bff514948992967a60041f365);
+        
+    
+        var popup_efa1add7543b4916ad4ee4fc0281b49d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a301603437844a70ad50fe3da28d530d = $(`<div id="html_a301603437844a70ad50fe3da28d530d" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Merritt%20Reservoir%20-%20Lone%20Tree%20Campground'>Merritt Reservoir - Lone Tree Campground</a></div>`)[0];
+            popup_efa1add7543b4916ad4ee4fc0281b49d.setContent(html_a301603437844a70ad50fe3da28d530d);
+        
+
+        circle_marker_d4312f2cdfcd49898574bd53eef897e0.bindPopup(popup_efa1add7543b4916ad4ee4fc0281b49d)
+        ;
+
+        
+    
+    
+            var circle_marker_fa26e0d4fb9b43618b3b9a1cb08351d1 = L.circleMarker(
+                [42.59941, -100.888962],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_fcf3956bff514948992967a60041f365);
+        
+    
+        var popup_759d953257664f2b813eaceba545994a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f993bf1fc64448992c87f92d83108a1 = $(`<div id="html_8f993bf1fc64448992c87f92d83108a1" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Merritt%20Reservoir%20-%20Pines%20Campground'>Merritt Reservoir - Pines Campground</a></div>`)[0];
+            popup_759d953257664f2b813eaceba545994a.setContent(html_8f993bf1fc64448992c87f92d83108a1);
+        
+
+        circle_marker_fa26e0d4fb9b43618b3b9a1cb08351d1.bindPopup(popup_759d953257664f2b813eaceba545994a)
+        ;
+
+        
+    
+    
+            var circle_marker_9eaf0aa1d81744a3b834f8e08f3e38ee = L.circleMarker(
+                [42.598684000000006, -100.910967],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_fcf3956bff514948992967a60041f365);
+        
+    
+        var popup_61f48149a348460eb08ec38c7bdc3e1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2214f1b3fe024c3ead8a95f14eef8ab2 = $(`<div id="html_2214f1b3fe024c3ead8a95f14eef8ab2" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Merritt%20Reservoir%20-%20Snake%20River%20Campground'>Merritt Reservoir - Snake River Campground</a></div>`)[0];
+            popup_61f48149a348460eb08ec38c7bdc3e1b.setContent(html_2214f1b3fe024c3ead8a95f14eef8ab2);
+        
+
+        circle_marker_9eaf0aa1d81744a3b834f8e08f3e38ee.bindPopup(popup_61f48149a348460eb08ec38c7bdc3e1b)
+        ;
+
+        
+    
+</script>

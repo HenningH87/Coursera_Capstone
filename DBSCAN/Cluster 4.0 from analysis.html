@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ab4713d306084594b78b9430a241aec5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ab4713d306084594b78b9430a241aec5" ></div>
+        
+</body>
+<script>    
+    
+            var map_ab4713d306084594b78b9430a241aec5 = L.map(
+                "map_ab4713d306084594b78b9430a241aec5",
+                {
+                    center: [38.34075319002071, -102.47432876343437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9843bd698e1c45f09f6e676b80afc83d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ab4713d306084594b78b9430a241aec5);
+        
+    
+            var marker_cluster_d3c3f9dd387543babbbab270ef8b7da6 = L.markerClusterGroup(
+                {}
+            );
+            map_ab4713d306084594b78b9430a241aec5.addLayer(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+            var circle_marker_8d95b065784d4a61be130d4b6a7eba96 = L.circleMarker(
+                [42.706179, -80.55920400000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+        var popup_e5a7f9ca9b57419a9b5cf4997aceecb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3aa8b8b256e4fdb907e103b4d013791 = $(`<div id="html_a3aa8b8b256e4fdb907e103b4d013791" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Deer%20Creek%20Conservation%20Area'>Deer Creek Conservation Area</a></div>`)[0];
+            popup_e5a7f9ca9b57419a9b5cf4997aceecb9.setContent(html_a3aa8b8b256e4fdb907e103b4d013791);
+        
+
+        circle_marker_8d95b065784d4a61be130d4b6a7eba96.bindPopup(popup_e5a7f9ca9b57419a9b5cf4997aceecb9)
+        ;
+
+        
+    
+    
+            var circle_marker_dbd2c52fd46f4a9882e45f9e707ff1b6 = L.circleMarker(
+                [42.301575, -112.206175],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+        var popup_959cb397331b47b2ac3a06416b44345c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_208e339829654a8e9b7f0ed64826effd = $(`<div id="html_208e339829654a8e9b7f0ed64826effd" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Devil%20Creek%20RV%20Park'>Devil Creek RV Park</a></div>`)[0];
+            popup_959cb397331b47b2ac3a06416b44345c.setContent(html_208e339829654a8e9b7f0ed64826effd);
+        
+
+        circle_marker_dbd2c52fd46f4a9882e45f9e707ff1b6.bindPopup(popup_959cb397331b47b2ac3a06416b44345c)
+        ;
+
+        
+    
+    
+            var circle_marker_6d8e29168e21474db1b3ff0bf55dc859 = L.circleMarker(
+                [53.406123, -60.420204000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+        var popup_4cc6d315f1244ce8a3f3d0a5bc2ad291 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d76cfc1d8424b7f94a7149af98bbbcf = $(`<div id="html_4d76cfc1d8424b7f94a7149af98bbbcf" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Goose%20River%20Lodge%20RV%20Park'>Goose River Lodge RV Park</a></div>`)[0];
+            popup_4cc6d315f1244ce8a3f3d0a5bc2ad291.setContent(html_4d76cfc1d8424b7f94a7149af98bbbcf);
+        
+
+        circle_marker_6d8e29168e21474db1b3ff0bf55dc859.bindPopup(popup_4cc6d315f1244ce8a3f3d0a5bc2ad291)
+        ;
+
+        
+    
+    
+            var circle_marker_e6bf0a68390c4294ae9682e69dee248e = L.circleMarker(
+                [38.061236, -100.060762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+        var popup_ead29227ba3b4f48a63291fc57a9a6ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a62139647977482fa95cd9e27d79b7db = $(`<div id="html_a62139647977482fa95cd9e27d79b7db" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=HorseThief%20Reservoir%20City%20Campground'>HorseThief Reservoir City Campground</a></div>`)[0];
+            popup_ead29227ba3b4f48a63291fc57a9a6ca.setContent(html_a62139647977482fa95cd9e27d79b7db);
+        
+
+        circle_marker_e6bf0a68390c4294ae9682e69dee248e.bindPopup(popup_ead29227ba3b4f48a63291fc57a9a6ca)
+        ;
+
+        
+    
+    
+            var circle_marker_4f7e9baabf5246f5a5683881ee4b2e52 = L.circleMarker(
+                [46.305031, -87.555166],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+        var popup_9f02b2155b0d48739ed0a8ceea92325e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69973c8b578c494c8603cb6f6ec34c87 = $(`<div id="html_69973c8b578c494c8603cb6f6ec34c87" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Horseshoe%20Lake%20Campground%20and%20RV%20Park'>Horseshoe Lake Campground and RV Park</a></div>`)[0];
+            popup_9f02b2155b0d48739ed0a8ceea92325e.setContent(html_69973c8b578c494c8603cb6f6ec34c87);
+        
+
+        circle_marker_4f7e9baabf5246f5a5683881ee4b2e52.bindPopup(popup_9f02b2155b0d48739ed0a8ceea92325e)
+        ;
+
+        
+    
+    
+            var circle_marker_776011bf06b14ffb91bc94aae6930c33 = L.circleMarker(
+                [34.301055, -95.875325],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+        var popup_bde5c6781ced42ba9ff68a59f0fb4281 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e128bda4ff64aa8a8d151d2c827cfa5 = $(`<div id="html_0e128bda4ff64aa8a8d151d2c827cfa5" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Little%20Pine%20Cabins%20and%20RV%20Park'>Little Pine Cabins and RV Park</a></div>`)[0];
+            popup_bde5c6781ced42ba9ff68a59f0fb4281.setContent(html_0e128bda4ff64aa8a8d151d2c827cfa5);
+        
+
+        circle_marker_776011bf06b14ffb91bc94aae6930c33.bindPopup(popup_bde5c6781ced42ba9ff68a59f0fb4281)
+        ;
+
+        
+    
+    
+            var circle_marker_3d802a831cb24a349dedc277b487378c = L.circleMarker(
+                [42.621565999999994, -100.86111899999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+        var popup_76af859537834c7c9d1b4ba21f614837 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f70fbc93a7a7448a86fc843763943913 = $(`<div id="html_f70fbc93a7a7448a86fc843763943913" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Merritt%20Reservoir%20-%20Willow%20Cove%20Campground'>Merritt Reservoir - Willow Cove Campground</a></div>`)[0];
+            popup_76af859537834c7c9d1b4ba21f614837.setContent(html_f70fbc93a7a7448a86fc843763943913);
+        
+
+        circle_marker_3d802a831cb24a349dedc277b487378c.bindPopup(popup_76af859537834c7c9d1b4ba21f614837)
+        ;
+
+        
+    
+    
+            var circle_marker_8bb53bf866dc4fa9960bc66b73a14b17 = L.circleMarker(
+                [47.221047, -76.727079],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+        var popup_d12c2dbccd8e4eba911c655efa6b9b19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7aa0d21bedc482aad83aef3d0950209 = $(`<div id="html_e7aa0d21bedc482aad83aef3d0950209" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Reserve%20faunique%20La%20Verendrye%20-%20Camping%20Lac%20Rapide'>Reserve faunique La Verendrye - Camping Lac Rapide</a></div>`)[0];
+            popup_d12c2dbccd8e4eba911c655efa6b9b19.setContent(html_e7aa0d21bedc482aad83aef3d0950209);
+        
+
+        circle_marker_8bb53bf866dc4fa9960bc66b73a14b17.bindPopup(popup_d12c2dbccd8e4eba911c655efa6b9b19)
+        ;
+
+        
+    
+    
+            var circle_marker_63dbb21a5f244a98a05da6feb2e741df = L.circleMarker(
+                [45.095595, -106.813331],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_d3c3f9dd387543babbbab270ef8b7da6);
+        
+    
+        var popup_e340ce42169d4f5590e8315cc8bc03ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1d268decd404eccb9d380d0f17a754c = $(`<div id="html_d1d268decd404eccb9d380d0f17a754c" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Tongue%20River%20Reservoir%20SP'>Tongue River Reservoir SP</a></div>`)[0];
+            popup_e340ce42169d4f5590e8315cc8bc03ea.setContent(html_d1d268decd404eccb9d380d0f17a754c);
+        
+
+        circle_marker_63dbb21a5f244a98a05da6feb2e741df.bindPopup(popup_e340ce42169d4f5590e8315cc8bc03ea)
+        ;
+
+        
+    
+</script>

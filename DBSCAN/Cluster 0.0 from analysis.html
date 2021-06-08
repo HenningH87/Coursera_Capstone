@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_683ae74c2434421cbc25486768a0561a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_683ae74c2434421cbc25486768a0561a" ></div>
+        
+</body>
+<script>    
+    
+            var map_683ae74c2434421cbc25486768a0561a = L.map(
+                "map_683ae74c2434421cbc25486768a0561a",
+                {
+                    center: [38.34075319002071, -102.47432876343437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a889df838cc14d708a632cf6694279fb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_683ae74c2434421cbc25486768a0561a);
+        
+    
+            var marker_cluster_1e939a5b0c3b42d689ccd7b00199e884 = L.markerClusterGroup(
+                {}
+            );
+            map_683ae74c2434421cbc25486768a0561a.addLayer(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+            var circle_marker_9f1979eab67b4cdbbcecd3b2971aa9fd = L.circleMarker(
+                [33.671794, -114.217459],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_b5685e60ea884dd0992c2c9bd650b3e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d163751b3147452ba0c9023ad6819271 = $(`<div id="html_d163751b3147452ba0c9023ad6819271" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Ameri-can%20Trails%20RV%20Park'>Ameri-can Trails RV Park</a></div>`)[0];
+            popup_b5685e60ea884dd0992c2c9bd650b3e1.setContent(html_d163751b3147452ba0c9023ad6819271);
+        
+
+        circle_marker_9f1979eab67b4cdbbcecd3b2971aa9fd.bindPopup(popup_b5685e60ea884dd0992c2c9bd650b3e1)
+        ;
+
+        
+    
+    
+            var circle_marker_8946d44be52e4c58a2d50c1c3fcb18b2 = L.circleMarker(
+                [33.674624, -114.20388899999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_149ed3cd035e45b5a3c8c2c0d9cd58bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87d0854ff6bb47a09da42e628d2c2b17 = $(`<div id="html_87d0854ff6bb47a09da42e628d2c2b17" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Arizona%20Sun%20RV%20Park'>Arizona Sun RV Park</a></div>`)[0];
+            popup_149ed3cd035e45b5a3c8c2c0d9cd58bc.setContent(html_87d0854ff6bb47a09da42e628d2c2b17);
+        
+
+        circle_marker_8946d44be52e4c58a2d50c1c3fcb18b2.bindPopup(popup_149ed3cd035e45b5a3c8c2c0d9cd58bc)
+        ;
+
+        
+    
+    
+            var circle_marker_29ecacc90c6e4334878697aa76ca350b = L.circleMarker(
+                [33.665479, -114.225755],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_c2c18621d7fb445fb247c8668b02e819 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64546e6ec31e471faab2af0841ba517c = $(`<div id="html_64546e6ec31e471faab2af0841ba517c" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Eighty-Eight%20Shades%20RV%20Park'>Eighty-Eight Shades RV Park</a></div>`)[0];
+            popup_c2c18621d7fb445fb247c8668b02e819.setContent(html_64546e6ec31e471faab2af0841ba517c);
+        
+
+        circle_marker_29ecacc90c6e4334878697aa76ca350b.bindPopup(popup_c2c18621d7fb445fb247c8668b02e819)
+        ;
+
+        
+    
+    
+            var circle_marker_634319fabc0f41ff863a1b10178a3145 = L.circleMarker(
+                [33.665649, -114.22273999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_7ec34e6c4bee43849c08e94acae94589 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b77afaec860245798acf6ce8253892fd = $(`<div id="html_b77afaec860245798acf6ce8253892fd" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Holiday%20Palms%20RV%20Park'>Holiday Palms RV Park</a></div>`)[0];
+            popup_7ec34e6c4bee43849c08e94acae94589.setContent(html_b77afaec860245798acf6ce8253892fd);
+        
+
+        circle_marker_634319fabc0f41ff863a1b10178a3145.bindPopup(popup_7ec34e6c4bee43849c08e94acae94589)
+        ;
+
+        
+    
+    
+            var circle_marker_2f47bf2d90874f92a419491dac420080 = L.circleMarker(
+                [33.670041, -114.217272],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_e9b8f5c8a1004babbb16090a14572de9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bd771b23487450fbf63df425993b608 = $(`<div id="html_4bd771b23487450fbf63df425993b608" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Kofa%20Mountain%20RV'>Kofa Mountain RV</a></div>`)[0];
+            popup_e9b8f5c8a1004babbb16090a14572de9.setContent(html_4bd771b23487450fbf63df425993b608);
+        
+
+        circle_marker_2f47bf2d90874f92a419491dac420080.bindPopup(popup_e9b8f5c8a1004babbb16090a14572de9)
+        ;
+
+        
+    
+    
+            var circle_marker_7f9cf9f21a064c01931a9b2378a49490 = L.circleMarker(
+                [33.679943, -114.21738799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_9b184eaf9c7b4986ae55be0e5e269542 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_579cdf8b1cf54c65952708bdd5b9b8c7 = $(`<div id="html_579cdf8b1cf54c65952708bdd5b9b8c7" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Quail%20Run%20RV%20Park'>Quail Run RV Park</a></div>`)[0];
+            popup_9b184eaf9c7b4986ae55be0e5e269542.setContent(html_579cdf8b1cf54c65952708bdd5b9b8c7);
+        
+
+        circle_marker_7f9cf9f21a064c01931a9b2378a49490.bindPopup(popup_9b184eaf9c7b4986ae55be0e5e269542)
+        ;
+
+        
+    
+    
+            var circle_marker_c5d78df27933492db728c37dfbcd1bcb = L.circleMarker(
+                [33.668966999999995, -114.216862],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_a465bddf31734f3982e746ec60c81df3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_054c3caf27184f119c68fc9e139b02af = $(`<div id="html_054c3caf27184f119c68fc9e139b02af" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Shady%20Lane%20RV%20Court'>Shady Lane RV Court</a></div>`)[0];
+            popup_a465bddf31734f3982e746ec60c81df3.setContent(html_054c3caf27184f119c68fc9e139b02af);
+        
+
+        circle_marker_c5d78df27933492db728c37dfbcd1bcb.bindPopup(popup_a465bddf31734f3982e746ec60c81df3)
+        ;
+
+        
+    
+    
+            var circle_marker_30b611e32b2442e39bbacf0b12377d44 = L.circleMarker(
+                [33.684824, -114.21777800000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_33154af2335e486badc7479baed1f94c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a378163e3bbf4cec9202d75008de1243 = $(`<div id="html_a378163e3bbf4cec9202d75008de1243" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Split%20Rail%20RV%20Park'>Split Rail RV Park</a></div>`)[0];
+            popup_33154af2335e486badc7479baed1f94c.setContent(html_a378163e3bbf4cec9202d75008de1243);
+        
+
+        circle_marker_30b611e32b2442e39bbacf0b12377d44.bindPopup(popup_33154af2335e486badc7479baed1f94c)
+        ;
+
+        
+    
+    
+            var circle_marker_a2f5c6a5cca544548078f45a020f5ad9 = L.circleMarker(
+                [33.686308000000004, -114.22561999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_f7a72a1d8c77468fa937608c3f7b5052 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0070865d248f4220adfae31b49982f99 = $(`<div id="html_0070865d248f4220adfae31b49982f99" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Tews%20and%20Date%20Palm%20RV%20Park'>Tews and Date Palm RV Park</a></div>`)[0];
+            popup_f7a72a1d8c77468fa937608c3f7b5052.setContent(html_0070865d248f4220adfae31b49982f99);
+        
+
+        circle_marker_a2f5c6a5cca544548078f45a020f5ad9.bindPopup(popup_f7a72a1d8c77468fa937608c3f7b5052)
+        ;
+
+        
+    
+    
+            var circle_marker_faae36789a5344439ff9164b08da3866 = L.circleMarker(
+                [33.674696999999995, -114.21733300000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1e939a5b0c3b42d689ccd7b00199e884);
+        
+    
+        var popup_3bea1a5056844d07aa540b5c73a55044 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eeb8232776e4275832d615a10ff8233 = $(`<div id="html_2eeb8232776e4275832d615a10ff8233" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=The%20Scenic%20Road%20RV%20Park%2055+'>The Scenic Road RV Park 55+</a></div>`)[0];
+            popup_3bea1a5056844d07aa540b5c73a55044.setContent(html_2eeb8232776e4275832d615a10ff8233);
+        
+
+        circle_marker_faae36789a5344439ff9164b08da3866.bindPopup(popup_3bea1a5056844d07aa540b5c73a55044)
+        ;
+
+        
+    
+</script>
