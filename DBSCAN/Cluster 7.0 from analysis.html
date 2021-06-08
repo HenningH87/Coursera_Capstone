@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eda00e66e78a4de2b4afbc56e71a8936 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_eda00e66e78a4de2b4afbc56e71a8936" ></div>
+        
+</body>
+<script>    
+    
+            var map_eda00e66e78a4de2b4afbc56e71a8936 = L.map(
+                "map_eda00e66e78a4de2b4afbc56e71a8936",
+                {
+                    center: [38.34075319002071, -102.47432876343437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c77664c62a5146d1b83d271789e05da6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_eda00e66e78a4de2b4afbc56e71a8936);
+        
+    
+            var marker_cluster_30f96fc8e37644afa2f7b1336374e483 = L.markerClusterGroup(
+                {}
+            );
+            map_eda00e66e78a4de2b4afbc56e71a8936.addLayer(marker_cluster_30f96fc8e37644afa2f7b1336374e483);
+        
+    
+            var circle_marker_1e9cfd6f202d4c488e9660a900446e76 = L.circleMarker(
+                [36.56827, -95.60634300000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_30f96fc8e37644afa2f7b1336374e483);
+        
+    
+        var popup_36dbc16b28904b8faf25185fb599dcce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32e970936ad542b699b2b57952144e4b = $(`<div id="html_32e970936ad542b699b2b57952144e4b" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Allen's%20Point%20RV%20Park'>Allen's Point RV Park</a></div>`)[0];
+            popup_36dbc16b28904b8faf25185fb599dcce.setContent(html_32e970936ad542b699b2b57952144e4b);
+        
+
+        circle_marker_1e9cfd6f202d4c488e9660a900446e76.bindPopup(popup_36dbc16b28904b8faf25185fb599dcce)
+        ;
+
+        
+    
+    
+            var circle_marker_192f6fb2872f4269a7a3af5916f7e8f0 = L.circleMarker(
+                [34.080833, -95.069633],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_30f96fc8e37644afa2f7b1336374e483);
+        
+    
+        var popup_f7a16bc09f5944e4a5e2ae0221988e62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24f148c9c09343858893a78b4917b9a7 = $(`<div id="html_24f148c9c09343858893a78b4917b9a7" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Boyd's%20RV%20Park%20and%20Fish%20Camp'>Boyd's RV Park and Fish Camp</a></div>`)[0];
+            popup_f7a16bc09f5944e4a5e2ae0221988e62.setContent(html_24f148c9c09343858893a78b4917b9a7);
+        
+
+        circle_marker_192f6fb2872f4269a7a3af5916f7e8f0.bindPopup(popup_f7a16bc09f5944e4a5e2ae0221988e62)
+        ;
+
+        
+    
+    
+            var circle_marker_7f63cf5ea5e048adba9671855f7e8744 = L.circleMarker(
+                [34.325146000000004, -108.221027],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_30f96fc8e37644afa2f7b1336374e483);
+        
+    
+        var popup_7d2e6032aff2445aa688b69b640ea074 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e654f2a487c4c9c92ce849d9b92a452 = $(`<div id="html_3e654f2a487c4c9c92ce849d9b92a452" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Half%20Moon%20Hitch%20Ranch%20And%20RV%20Park'>Half Moon Hitch Ranch And RV Park</a></div>`)[0];
+            popup_7d2e6032aff2445aa688b69b640ea074.setContent(html_3e654f2a487c4c9c92ce849d9b92a452);
+        
+
+        circle_marker_7f63cf5ea5e048adba9671855f7e8744.bindPopup(popup_7d2e6032aff2445aa688b69b640ea074)
+        ;
+
+        
+    
+    
+            var circle_marker_d378f75374364aee9d7327141f49f951 = L.circleMarker(
+                [34.096159, -95.08703100000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_30f96fc8e37644afa2f7b1336374e483);
+        
+    
+        var popup_8903edc9c3784d19b4c65f02029cb871 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57a66a4744194013ad3caf280d4ad897 = $(`<div id="html_57a66a4744194013ad3caf280d4ad897" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Pond%20Side%20Cabins%20and%20RV%20Park'>Pond Side Cabins and RV Park</a></div>`)[0];
+            popup_8903edc9c3784d19b4c65f02029cb871.setContent(html_57a66a4744194013ad3caf280d4ad897);
+        
+
+        circle_marker_d378f75374364aee9d7327141f49f951.bindPopup(popup_8903edc9c3784d19b4c65f02029cb871)
+        ;
+
+        
+    
+    
+            var circle_marker_0d8ccbd9d06e4be098cb1dc36037fd48 = L.circleMarker(
+                [29.64364, -103.078762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_30f96fc8e37644afa2f7b1336374e483);
+        
+    
+        var popup_05bec17a021749709343fff3bb1ca00a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e483022200f744919f65adc2165ce539 = $(`<div id="html_e483022200f744919f65adc2165ce539" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Stillwell%20Store%20and%20RV%20Park'>Stillwell Store and RV Park</a></div>`)[0];
+            popup_05bec17a021749709343fff3bb1ca00a.setContent(html_e483022200f744919f65adc2165ce539);
+        
+
+        circle_marker_0d8ccbd9d06e4be098cb1dc36037fd48.bindPopup(popup_05bec17a021749709343fff3bb1ca00a)
+        ;
+
+        
+    
+</script>

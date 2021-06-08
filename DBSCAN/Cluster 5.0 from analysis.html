@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_440e487a3f9f4b9d9deabe36f11bd346 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_440e487a3f9f4b9d9deabe36f11bd346" ></div>
+        
+</body>
+<script>    
+    
+            var map_440e487a3f9f4b9d9deabe36f11bd346 = L.map(
+                "map_440e487a3f9f4b9d9deabe36f11bd346",
+                {
+                    center: [38.34075319002071, -102.47432876343437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2967bc51817c432da3bab192d3196f97 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_440e487a3f9f4b9d9deabe36f11bd346);
+        
+    
+            var marker_cluster_bb5535e207b14513b606ffdf4dc632e2 = L.markerClusterGroup(
+                {}
+            );
+            map_440e487a3f9f4b9d9deabe36f11bd346.addLayer(marker_cluster_bb5535e207b14513b606ffdf4dc632e2);
+        
+    
+            var circle_marker_683b23d0c62e450ba2422f4b48564e05 = L.circleMarker(
+                [32.515733000000004, -92.938982],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb5535e207b14513b606ffdf4dc632e2);
+        
+    
+        var popup_547081e472604686af456e6e689be9e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36ffdbdb0d004a7fa2dd9c70987c451a = $(`<div id="html_36ffdbdb0d004a7fa2dd9c70987c451a" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Bonnie%20and%20Clyde%20Trade%20Days%20%20RV%20Park'>Bonnie and Clyde Trade Days  RV Park</a></div>`)[0];
+            popup_547081e472604686af456e6e689be9e0.setContent(html_36ffdbdb0d004a7fa2dd9c70987c451a);
+        
+
+        circle_marker_683b23d0c62e450ba2422f4b48564e05.bindPopup(popup_547081e472604686af456e6e689be9e0)
+        ;
+
+        
+    
+    
+            var circle_marker_b9830e6f7b3c4ba6aacefb74adcb5a33 = L.circleMarker(
+                [32.14112, -87.274328],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb5535e207b14513b606ffdf4dc632e2);
+        
+    
+        var popup_2cc1e61bb6b2496da00a4b5bb11e4dde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_463c77c456bc44ffa721f01139435366 = $(`<div id="html_463c77c456bc44ffa721f01139435366" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Dannelly%20Reservoir%20-%20Chilatchee%20Creek%20Campground'>Dannelly Reservoir - Chilatchee Creek Campground</a></div>`)[0];
+            popup_2cc1e61bb6b2496da00a4b5bb11e4dde.setContent(html_463c77c456bc44ffa721f01139435366);
+        
+
+        circle_marker_b9830e6f7b3c4ba6aacefb74adcb5a33.bindPopup(popup_2cc1e61bb6b2496da00a4b5bb11e4dde)
+        ;
+
+        
+    
+    
+            var circle_marker_2e605883a54743e89c11c3eee598faac = L.circleMarker(
+                [47.475578000000006, -118.25525900000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb5535e207b14513b606ffdf4dc632e2);
+        
+    
+        var popup_b1c2aea12f134accabcc80512577df5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8873372be28746469c96540795e3f9d1 = $(`<div id="html_8873372be28746469c96540795e3f9d1" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Harrington%20Hideaway%20RV%20Park'>Harrington Hideaway RV Park</a></div>`)[0];
+            popup_b1c2aea12f134accabcc80512577df5c.setContent(html_8873372be28746469c96540795e3f9d1);
+        
+
+        circle_marker_2e605883a54743e89c11c3eee598faac.bindPopup(popup_b1c2aea12f134accabcc80512577df5c)
+        ;
+
+        
+    
+    
+            var circle_marker_641aeb64c2b34d2291afedcebf6d9521 = L.circleMarker(
+                [34.127128000000006, -99.340997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb5535e207b14513b606ffdf4dc632e2);
+        
+    
+        var popup_0111c408c1d04d92bccd710565600528 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3abaaf59bdf5441db442582a3385babe = $(`<div id="html_3abaaf59bdf5441db442582a3385babe" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Mel's%20RV%20Park'>Mel's RV Park</a></div>`)[0];
+            popup_0111c408c1d04d92bccd710565600528.setContent(html_3abaaf59bdf5441db442582a3385babe);
+        
+
+        circle_marker_641aeb64c2b34d2291afedcebf6d9521.bindPopup(popup_0111c408c1d04d92bccd710565600528)
+        ;
+
+        
+    
+    
+            var circle_marker_2e7a2926f4f342ff94509dc5dc986038 = L.circleMarker(
+                [45.135360999999996, -118.92666100000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb5535e207b14513b606ffdf4dc632e2);
+        
+    
+        var popup_4b3bd57adc6d4bcfbe61f0097dae9fda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7164c1cee3b443a2ae96325ebb470290 = $(`<div id="html_7164c1cee3b443a2ae96325ebb470290" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Stage%20Stop%20Motel%20and%20RV'>Stage Stop Motel and RV</a></div>`)[0];
+            popup_4b3bd57adc6d4bcfbe61f0097dae9fda.setContent(html_7164c1cee3b443a2ae96325ebb470290);
+        
+
+        circle_marker_2e7a2926f4f342ff94509dc5dc986038.bindPopup(popup_4b3bd57adc6d4bcfbe61f0097dae9fda)
+        ;
+
+        
+    
+</script>

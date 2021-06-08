@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c4ac23ef9e9c438f95096f0bc9c7dbbb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c4ac23ef9e9c438f95096f0bc9c7dbbb" ></div>
+        
+</body>
+<script>    
+    
+            var map_c4ac23ef9e9c438f95096f0bc9c7dbbb = L.map(
+                "map_c4ac23ef9e9c438f95096f0bc9c7dbbb",
+                {
+                    center: [38.34075319002071, -102.47432876343437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8c3535f13be440dd95882b948951cdd4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c4ac23ef9e9c438f95096f0bc9c7dbbb);
+        
+    
+            var marker_cluster_a8324495182d4d72beb985a4728197f6 = L.markerClusterGroup(
+                {}
+            );
+            map_c4ac23ef9e9c438f95096f0bc9c7dbbb.addLayer(marker_cluster_a8324495182d4d72beb985a4728197f6);
+        
+    
+            var circle_marker_c90e3aa25fc641c1b517fd3246db303c = L.circleMarker(
+                [32.678415, -114.15366999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a8324495182d4d72beb985a4728197f6);
+        
+    
+        var popup_7217aecda9814a1c991dca995e2027e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdcc9c9f565345839d9e3694716eabd0 = $(`<div id="html_bdcc9c9f565345839d9e3694716eabd0" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Green%20Acres%20RV%20Park'>Green Acres RV Park</a></div>`)[0];
+            popup_7217aecda9814a1c991dca995e2027e8.setContent(html_bdcc9c9f565345839d9e3694716eabd0);
+        
+
+        circle_marker_c90e3aa25fc641c1b517fd3246db303c.bindPopup(popup_7217aecda9814a1c991dca995e2027e8)
+        ;
+
+        
+    
+    
+            var circle_marker_0123dee33302443c8657b95e28c3573a = L.circleMarker(
+                [32.670792, -114.14974099999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a8324495182d4d72beb985a4728197f6);
+        
+    
+        var popup_d0f7bdbe45614783b3c0e80f0a268b06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f066fbb67704d6988834116cc3eee14 = $(`<div id="html_1f066fbb67704d6988834116cc3eee14" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=M%20and%20M%20RV%20Village'>M and M RV Village</a></div>`)[0];
+            popup_d0f7bdbe45614783b3c0e80f0a268b06.setContent(html_1f066fbb67704d6988834116cc3eee14);
+        
+
+        circle_marker_0123dee33302443c8657b95e28c3573a.bindPopup(popup_d0f7bdbe45614783b3c0e80f0a268b06)
+        ;
+
+        
+    
+    
+            var circle_marker_de6c40bd70124b699667289d332c3d11 = L.circleMarker(
+                [32.663205, -114.149666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a8324495182d4d72beb985a4728197f6);
+        
+    
+        var popup_562a925e41f54800b3e41c81203af860 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_090ab37206c2475a9f0a332943348377 = $(`<div id="html_090ab37206c2475a9f0a332943348377" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Pioneer%20RV%20Park'>Pioneer RV Park</a></div>`)[0];
+            popup_562a925e41f54800b3e41c81203af860.setContent(html_090ab37206c2475a9f0a332943348377);
+        
+
+        circle_marker_de6c40bd70124b699667289d332c3d11.bindPopup(popup_562a925e41f54800b3e41c81203af860)
+        ;
+
+        
+    
+    
+            var circle_marker_b649612972b542469954c7e38f8b7832 = L.circleMarker(
+                [32.673365000000004, -114.13829299999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a8324495182d4d72beb985a4728197f6);
+        
+    
+        var popup_44273906965843a1992e25505159c182 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_838c2e55ae9c425ba9f3acb466fa0e05 = $(`<div id="html_838c2e55ae9c425ba9f3acb466fa0e05" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Sun%20Country%20RV%20Park'>Sun Country RV Park</a></div>`)[0];
+            popup_44273906965843a1992e25505159c182.setContent(html_838c2e55ae9c425ba9f3acb466fa0e05);
+        
+
+        circle_marker_b649612972b542469954c7e38f8b7832.bindPopup(popup_44273906965843a1992e25505159c182)
+        ;
+
+        
+    
+    
+            var circle_marker_1304a24b4cf440c5bef2294d25fa6a65 = L.circleMarker(
+                [32.663703000000005, -114.154835],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a8324495182d4d72beb985a4728197f6);
+        
+    
+        var popup_a93c59fc9ce24289a65cbe9a66a9cbd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e0e7788aa684c2f875e4f350d5304f1 = $(`<div id="html_0e0e7788aa684c2f875e4f350d5304f1" style="width: 100.0%; height: 100.0%;"><a  target='_blank' href='https://www.google.com/search?q=Tier%20Drop%20RV%20Park'>Tier Drop RV Park</a></div>`)[0];
+            popup_a93c59fc9ce24289a65cbe9a66a9cbd9.setContent(html_0e0e7788aa684c2f875e4f350d5304f1);
+        
+
+        circle_marker_1304a24b4cf440c5bef2294d25fa6a65.bindPopup(popup_a93c59fc9ce24289a65cbe9a66a9cbd9)
+        ;
+
+        
+    
+</script>
