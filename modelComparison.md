@@ -1,0 +1,14 @@
+| Name       |   Agreed |   Total Hierarchical |   Total Kmeans |   Agreed Score (Hier.) |   Agreed Score (Kmeans) |   Total in either model |   Total Score (Hier.) |   Total Score (Kmeans) | Dominant     |
+|:-----------|---------:|---------------------:|---------------:|-----------------------:|------------------------:|------------------------:|----------------------:|-----------------------:|:-------------|
+| Cluster 0  |       66 |                 1085 |             89 |                    6   |                    74.1 |                    1108 |                  97.9 |                    8   | Kmeans       |
+| Cluster 1  |     1937 |                 2805 |           3128 |                   69   |                    61.9 |                    3996 |                  70.1 |                   78.2 | Hierarchical |
+| Cluster 2  |      205 |                  330 |            329 |                   62.1 |                    62.3 |                     454 |                  72.6 |                   72.4 | Kmeans       |
+| Cluster 3  |       50 |                  168 |             69 |                   29.7 |                    72.4 |                     187 |                  89.8 |                   36.8 | Kmeans       |
+| Cluster 4  |      131 |                  311 |            158 |                   42.1 |                    82.9 |                     338 |                  92   |                   46.7 | Kmeans       |
+| Cluster 5  |      178 |                  202 |            282 |                   88.1 |                    63.1 |                     306 |                  66   |                   92.1 | Hierarchical |
+| Cluster 6  |      271 |                  349 |            676 |                   77.6 |                    40   |                     754 |                  46.2 |                   89.6 | Hierarchical |
+| Cluster 7  |      266 |                  547 |            534 |                   48.6 |                    49.8 |                     815 |                  67.1 |                   65.5 | Kmeans       |
+| Cluster 8  |     2263 |                 2933 |           2647 |                   77.1 |                    85.4 |                    3317 |                  88.4 |                   79.8 | Kmeans       |
+| Cluster 9  |        0 |                  160 |           1043 |                    0   |                     0   |                    1203 |                  13.3 |                   86.6 | Hierarchical |
+| Cluster 10 |        2 |                  169 |             57 |                    1.1 |                     3.5 |                     224 |                  75.4 |                   25.4 | Kmeans       |
+| Cluster 11 |       52 |                   52 |             99 |                  100   |                    52.5 |                      99 |                  52.5 |                  100   | Hierarchical |
