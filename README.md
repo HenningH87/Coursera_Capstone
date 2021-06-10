@@ -30,7 +30,7 @@ A total of 16 976 unique campsites in North America was identified and fed into 
 
 It was necessary to ensure both the Kmeans and hierarchical models give the same amount of groups to make comparisons between them easier. Iteratively solving the Kmeans and hierarchical models to achieve this gave 11 groups. [Figure 1]() shows the result from the analysis including the campsites that were found in both models as well as the groups the disagreed campsites were in.
 
-![How%20do%20I%20find%20the%20perfect%20RV%20campsite%20for%20ME%204a68e0dbe7d541bb9016b2dd37a06293/Agg_Kmeans_corr-2.png](How%20do%20I%20find%20the%20perfect%20RV%20campsite%20for%20ME%204a68e0dbe7d541bb9016b2dd37a06293/Agg_Kmeans_corr-2.png)
+![How%20do%20I%20find%20the%20perfect%20RV%20campsite%20for%20ME%204a68e0dbe7d541bb9016b2dd37a06293/Agg_Kmeans_corr-2.png](Agg_Kmeans_corr.png)
 
 Figure 1 - A Figure showing the relationship between the Kmeans and hierarchical models developed in a heat map. Totals are shown at the top and right for the corresponding cluster groups and models.
 
