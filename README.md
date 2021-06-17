@@ -123,7 +123,7 @@ indicating that there are possible subgroups or that the data set has a
 large dispersion of data that are loosely connected.
 
 ![A figure showing how the number of clusters was determined using the
-Elbow method and Kmeans clustering.](./report/Kmeans_elbow.pdf)
+Elbow method and Kmeans clustering.](./Report/Kmeans_elbow.pdf)
 
 The hierarchical model was then evaluated with 6 clusters as the cut-off
 point. The dendrogram is shown in Figure 2 and makes the visual
@@ -134,7 +134,7 @@ containing the majority of campsites, one in each parent cluster. These
 clusters are significantly far apart from one another while still
 retaining significant cluster similarity within.
 
-![A firgure displaying the dendogram of the hierarichal model.](./report/agg.png)
+![A firgure displaying the dendogram of the hierarichal model.](./Report/agg.png)
 
 The Kmeans and hierarchical models were then evaluated and compared with
 one another. The heatmap showing the total of campsites in each model,
@@ -150,7 +150,7 @@ dividing by the model’s total campsites for that cluster.
 
 ![A Figure showing the relationship between the Kmeans and hierarchical
 models developed in a heat map. Totals are shown at the top and right
-for the corresponding cluster groups and models.](./report/Agg_Kmeans_corr.png)
+for the corresponding cluster groups and models.](./Report/Agg_Kmeans_corr.png)
 
 *A**g**r**e**e**d**S**c**o**r**e* = *A**g**r**e**e**d*/*T**o**t**a**l**S**i**t**e**s*%
 
